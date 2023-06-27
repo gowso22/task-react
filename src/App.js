@@ -1,6 +1,7 @@
 import BackgroundImg from "./components/BackgroundImg";
 import Clock from "./components/Clock";
 import Greeting from "./components/Greeting";
+import Todo from "./components/Todo";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <BackgroundImg/>
         <Clock/>
         <Greeting/>
+        <Todo/>
     </div>
   );
 }
